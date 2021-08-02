@@ -15,6 +15,7 @@ gipDropDownList::gipDropDownList() {
 }
 
 gipDropDownList::~gipDropDownList() {
+	delete textfont;
 }
 
 int gipDropDownList::getID() {
